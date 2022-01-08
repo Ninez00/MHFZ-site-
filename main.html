@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    <title>WhoFist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="function.js" ></script>
+
+      <style>
+ 
+        body {
+          font-family: "Lato", sans-serif;        
+        }
+        
+        img{
+          margin-top: 20px;
+          
+        }
+
+        p.normaltext{
+          font-family:"Gill Sans", sans-serif ;
+          
+        }
+        
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        } 
+
+        .sidenav {
+          height: auto;
+          margin-left: 100px;
+          margin-top: 70px;
+          width: 200px;
+          position: fixed;
+          z-index: 1;
+          top: 0px;
+          left: 0px;
+          background-color: rgb(255, 255, 255);
+          overflow-x: hidden;
+          padding-top: 20px;
+          padding-bottom: 15px;
+          }
+
+        .sidenav a, .dropdown-btn {
+          padding: 6px 8px 6px 16px;
+          text-decoration: none;
+          font-size: 20px;
+          color: #000000;
+          display: block;
+          border: none;
+          background: none;
+          width: 100%;
+          text-align: left;
+          outline: none;
+          }
+
+          .sidenav a:hover, .dropdown-btn:hover {
+          color: #333333;
+          }
+
+        .active {      
+          color: rgb(31, 31, 31);
+          background-color: #838282;
+          }
+
+        .dropdown-container {
+          display: none;
+          padding-left: 8px;
+          }
+
+        .fa-caret-down {
+          float: right;
+          padding-right: 8px;
+          }   
+
+         .bgpaper{
+          width: 1400px;
+          position:absolute;
+          top: 10px;
+          left: 400px;
+          background: url("immagini main/whitepaper.jpg");
+          margin-top: 10px;
+          box-shadow: 8px 8px 10px grey;
+          resize: vertical;
+        } 
+
+         .pzmode{
+          margin-top: 270px;
+        } 
+
+        </style>
+</head>
+
+ <body background="immagini main/zeru221.png">
+  
+    <div class="sidenav">
+      <button class="dropdown-btn">Info point
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="#About the site" type="button" onclick="toggleText()">About the site</a>
+        <a href="#Useful links">Useful links</a>
+        <a href="#General info">General info</a>
+        </div>
+      </button>
+  <button class="dropdown-btn">Installation and beginning 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#Installation">Installation</a>
+    <a href="#Creating a character">Creating a character</a>
+  </div>
+  <button class="dropdown-btn , ">Mezeporta 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#Town NPCs">Town NPCs</a>
+    <a href="#House facilities">House facilities</a>
+    <a href="#Guild">Guild</a>
+    <a href="#Caravan area">Caravan area</a>
+    <a href="#Diva hall">Diva hall</a>
+    <a href="#Other">Other</a>
+  </div>
+  <button class="dropdown-btn">Armours 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#General informations">General informations</a>
+    <a href="#Ranks">Ranks</a>
+    <a href="#Armour skills">Armour skills</a>
+    <a href="#Decorations">Decorations</a>
+  </div>
+</div>
+     <p class=" bgpaper"  align="center"> <img  src="immagini main/Logo-MHFZ.png" alt="" style="margin-bottom: 208px;"></p> 
+     <p class=" bgpaper , pzmode , normaltext"  id='demo' style="display: none;" > "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." <br></p> 
+    <p class=" bgpaper , pzmode , normaltext"  id='demo' style="display: none;" >Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+    <script src="function.js"></script>
+</body>
+</html>
